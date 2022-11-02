@@ -8,6 +8,6 @@ module.exports = {
         res.sendFile(path.join(__dirname, "../../index.css"))
     },
     homeJs: (req, res) => {
-        res.sendFile(path.join(__dirname, "../../home.js"))
+        res.sendFile(path.join(__dirname, "../../server.js"))
     }
 }
